@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.etextbook.util.DBConnectionTest" time="1.026" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Fall 2024\DBMS\Project\ETextbook\target\test-classes;C:\Fall 2024\DBMS\Project\ETextbook\target\classes;C:\Users\utkar\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\utkar\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\utkar\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\utkar\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\utkar\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;C:\Users\utkar\.m2\repository\org\springframework\security\spring-security-core\5.7.0\spring-security-core-5.7.0.jar;C:\Users\utkar\.m2\repository\org\springframework\security\spring-security-crypto\5.7.0\spring-security-crypto-5.7.0.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-aop\5.3.20\spring-aop-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-context\5.3.20\spring-context-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-core\5.3.20\spring-core-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-jcl\5.3.20\spring-jcl-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-expression\5.3.20\spring-expression-5.3.20.jar;C:\Users\utkar\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\utkar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\utkar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\utkar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin"/>
+    <property name="sun.java.command" value="C:\Users\utkar\AppData\Local\Temp\surefire8149570648684477820\surefirebooter-20241104162309435_3.jar C:\Users\utkar\AppData\Local\Temp\surefire8149570648684477820 2024-11-04T16-23-09_080-jvmRun1 surefire-20241104162309435_1tmp surefire_0-20241104162309435_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="DBConnectionTest"/>
+    <property name="surefire.test.class.path" value="C:\Fall 2024\DBMS\Project\ETextbook\target\test-classes;C:\Fall 2024\DBMS\Project\ETextbook\target\classes;C:\Users\utkar\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\utkar\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\utkar\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\utkar\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\utkar\.m2\repository\org\slf4j\slf4j-simple\1.7.32\slf4j-simple-1.7.32.jar;C:\Users\utkar\.m2\repository\org\springframework\security\spring-security-core\5.7.0\spring-security-core-5.7.0.jar;C:\Users\utkar\.m2\repository\org\springframework\security\spring-security-crypto\5.7.0\spring-security-crypto-5.7.0.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-aop\5.3.20\spring-aop-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-context\5.3.20\spring-context-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-core\5.3.20\spring-core-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-jcl\5.3.20\spring-jcl-5.3.20.jar;C:\Users\utkar\.m2\repository\org\springframework\spring-expression\5.3.20\spring-expression-5.3.20.jar;C:\Users\utkar\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\utkar\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\utkar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\utkar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Users\utkar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Fall 2024\DBMS\Project\ETextbook"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\utkar\AppData\Local\Temp\surefire8149570648684477820\surefirebooter-20241104162309435_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11"/>
+    <property name="user.name" value="utkar"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23.0.1+11"/>
+    <property name="localRepository" value="C:\Users\utkar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\utkar\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Fall 2024\DBMS\Project\ETextbook"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\utkar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\utkar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\utkar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\utkar\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\latest\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PuTTY\;C:\Program Files\MATLAB\R2023b\bin;C:\Program Files\Vim\vim91;C:\Program Files\MySQL\MySQL Server 8.4\bin;C:\Program Files\Java\jdk-21\bin;C:\Users\utkar\AppData\Local\Programs\Python\Python310\;C:\Users\utkar\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\utkar\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\utkar\AppData\Local\Programs\Python\Python310\;C:\Users\utkar\AppData\Local\Microsoft\WindowsApps;C:\Users\utkar\AppData\Roaming\npm;C:\Users\utkar\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23.0.1+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testDatabaseConnection" classname="com.etextbook.util.DBConnectionTest" time="0.937">
+    <system-out><![CDATA[Database connection successful!
+]]></system-out>
+  </testcase>
+</testsuite>
